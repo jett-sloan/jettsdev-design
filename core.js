@@ -1,9 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-            // Dark mode based on system preference
-            if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-                document.documentElement.classList.add('dark');
-            }
-
+            
             // Mobile menu open/close
             const mobileBtn = document.getElementById('mobile-menu-button');
             const mobileNav = document.getElementById('navbar-collapse-with-animation');
