@@ -4,8 +4,8 @@ module.exports = {
   darkMode: 'class', // or 'media'
   content: [
     './index.html',
-    './**/*.html',
-    './**/*.js',
+    // './**/*.html',
+    // './**/*.js',
   ],
   theme: {
     extend: {
